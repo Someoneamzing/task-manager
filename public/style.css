@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./80a7f65d0337d44257018c821918b077.jpg);
+    font-family: Roboto;
+    color: white;
+}
+
+#daily-info {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#date-parts {
+    font-size: 20px;
+}
+
+#clock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+}
+
+#time {
+    font-size: 200px;
+    font-weight: 100;
+    width: 470px;
+    text-align: right;
+}
+
+#am-pm {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: grey;
+}
+
+#day {
+    font-size: 25px;
+}
+
+#date {
+    font-weight: 400;
+}
+
+#am.active, #pm.active {
+    color: white;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+    margin: 4em;
+}
+
+.task {
+    background: rgba(255,255,255,20%);
+    backdrop-filter: blur(10px);
+    padding: 1em;
+}
